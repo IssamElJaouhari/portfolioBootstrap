@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.css"
+    />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a href="#" class="navbar-brand">My Website</a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toogle="collapse"
+        data-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item">
+            <a href="#project" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="jubmbotron text-center bg-primary text-white">
+      <h1 class="display-4">Hey, i called FLAN</h1>
+      <p class="lead">I'm web developer</p>
+      <a href="#projetcs" class="btn btn-light btn-lg mb-4">Catch me</a>
+    </section>
+
+    <section class="container py-5" id="About">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="./Untitled.jpg"
+            alt="my-picture"
+            class="img-fluid rounded-circle"
+          />
+        </div>
+        <div class="col-md-6">
+          <h2>About me</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum
+            dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit
+            amet consectetur adipisicing elit
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="container py-5" id="Projects">
+      <h2 class="text-center">Projects</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img
+              src="./Screenshot 2024-11-04 at 16-10-58 Maxim Orlovsky Dribbble.png"
+              alt="project1"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">data migration</h5>
+              <p class="card-text">project abouyt migration DATA</p>
+              <a href="#" class="btn btn-primary">Check</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img
+              src="./Screenshot 2024-11-04 at 16-11-03 Maxim Orlovsky Dribbble.png"
+              alt="project2"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">project2</h5>
+              <p class="card-text">project abouyt migration DATA 2</p>
+              <a href="#" class="btn btn-primary">Check</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img
+              src="./Screenshot 2024-11-04 at 16-11-10 Maxim Orlovsky Dribbble.png"
+              alt="project3"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">project3</h5>
+              <p class="card-text">project abouyt migration DATA 3</p>
+              <a href="#" class="btn btn-primary">Check</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container py-5" id="Contact">
+      <h2 class="text-center">Reach Me</h2>
+      <form action="#">
+        <div class="from-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="type your name"
+            class="form-control"
+          />
+        </div>
+        <div class="from-group">
+          <label for="Email">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="type your email"
+            class="form-control"
+          />
+        </div>
+        <div class="from-group">
+          <label for="Message">Message</label>
+          <textarea
+            id="Message"
+            placeholder="type your Message"
+            class="form-control"
+            rows="3"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-success mt-2">Submit</button>
+      </form>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2024 GoMyCode. all right reserved.</p>
+    </footer>
+  </body>
+</html>
